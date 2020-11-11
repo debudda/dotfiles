@@ -643,7 +643,7 @@ background_opacity: 0.95
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
   #- { key: Paste,                                action: Paste          }
   #- { key: Copy,                                 action: Copy           }
   #- { key: L,         mods: Control,             action: ClearLogNotice }
@@ -735,7 +735,8 @@ background_opacity: 0.95
   #- { key: M,              mods: Command,            action: Minimize         }
   #- { key: Q,              mods: Command,            action: Quit             }
   #- { key: W,              mods: Command,            action: Quit             }
-  #- { key: N,              mods: Command,            action: SpawnNewInstance }
+  - { key: N,               mods: Command,            action: SpawnNewInstance }
+  - { key: N,               mods: Control,            action: SpawnNewInstance }
   #- { key: F,              mods: Command|Control,    action: ToggleFullscreen }
   #- { key: F,              mods: Command,            action: SearchForward    }
   #- { key: B,              mods: Command,            action: SearchBackward   }
