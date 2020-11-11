@@ -1,4 +1,4 @@
-####Install
+#### Install
 
 git clone --bare <origin-url> $HOME/.dotfiles
 source ~/.zshrc
